@@ -90,3 +90,8 @@ div.rphotos{
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
+div.bob, div.alice{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
