@@ -71,6 +71,8 @@ p.artist, figcaption.fig, p.name{
 }
 
 p.photo, p.review{
+    font-family: Arial, Helvetica, sans-serif;
+    
 
 }
 
