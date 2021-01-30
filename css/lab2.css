@@ -114,9 +114,8 @@ p.photo{
     margin-top: 4px;
     margin-bottom: 4px;
 }
-
-span{
-    display: inline;
-    width: 10px;
-    height: 10px;
+img.sm{
+    text-align: center;
+    height: 15px;
+    width: 15px;
 }
