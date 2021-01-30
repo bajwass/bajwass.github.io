@@ -78,4 +78,10 @@ p.photo, p.review{
     font-size: medium;
 }
 
+hr.underline{
+    padding: 0em;
+}
 
+hr.dotted{
+
+}
