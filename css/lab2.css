@@ -70,6 +70,7 @@ p.artist, figcaption.fig, p.name{
     font-family: 'Trebuchet MS', 'Lucida Grande', Tahoma, sans-serif;
     font-style: italic;
     font-size: small;
+    color: darkgrey;
 }
 
 p.photo, p.review{
