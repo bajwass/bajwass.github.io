@@ -96,6 +96,7 @@ div.bob{
 }
 
 div.alice{
+    margin-top: 8px;
     margin-bottom: 12px;
 }
 p.artist{
