@@ -47,12 +47,10 @@ img.crystals{
     border: solid black;
     padding: 0.25em 0.25em 0.25em 0.25em;
     width: 98%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 div.socials{
-    background-image: url(images/gray-gradient.png);
+    background-image: url("images/gray-gradient.png");
     height: 50px;
     border-radius: 25px;
     background-position: left top;
@@ -77,14 +75,21 @@ p.photo, p.review{
     font-family: 'Trebuchet MS', 'Lucida Grande', Tahoma, sans-serif;
     font-size: medium;
 }
+div.break{
+    border-bottom: 1px solid black;
+}
+
+div.wbreak{
+    border-bottom: 1px solid white;
+}
 
 p.review{
     border-bottom: 1px dotted black;
-    padding-bottom: 8px;
 }
 
 h3{
     border-bottom: 1px solid black;
+
 }
 
 div.rphotos{
@@ -93,12 +98,13 @@ div.rphotos{
 }
 
 div.bob{
-    margin-top: 8px;
+    margin-top: 6px;
+    margin-bottom: 20px;
 }
 
 div.alice{
-    margin-top: 8px;
-    margin-bottom: 12px;
+    margin-top: 6px;
+    margin-bottom: 20px;
 }
 p.artist{
     margin-top: 8px;
