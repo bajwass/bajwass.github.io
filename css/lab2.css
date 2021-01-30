@@ -29,3 +29,16 @@ h3{
 nav{
     font-size: 1.125em;
 }
+
+a:link{
+    color: #98dafc;
+    font-weight: bold;
+}
+
+a:visited{
+    color: #daad86;
+}
+
+a:hover{
+    color: #ffffcc;
+}
