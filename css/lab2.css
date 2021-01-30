@@ -80,7 +80,7 @@ p.photo, p.review{
 
 p.review{
     border-bottom: 1px dotted black;
-    padding: 8px;
+    padding-bottom: 8px;
 }
 
 h3{
