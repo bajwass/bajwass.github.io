@@ -91,7 +91,11 @@ div.rphotos{
     margin-bottom: 8px;
 }
 
-div.bob, div.alice{
+div.bob{
     margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+div.alice{
     margin-bottom: 12px;
 }
