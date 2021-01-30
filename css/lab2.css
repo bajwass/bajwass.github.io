@@ -65,6 +65,6 @@ div.wcolor{
 }
 
 p.artist, figcaption.fig, div.bob, div.alice{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-small;
 }
