@@ -3,3 +3,27 @@ header, footer{
  background-color: #daad86;
  margin: 0em 4em 0.5em 4em;
 }
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3, nav, footer{
+    font-family: 'Trebuchet MS', 'Lucida Grande', Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 0.75em;
+}
+
+h3{
+    font-size: 1.125em;
+}
+
+nav{
+    font-size: 1.125em;
+}
