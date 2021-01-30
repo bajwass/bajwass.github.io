@@ -116,5 +116,7 @@ p.photo{
 }
 
 span{
-    display: inline-block;
+    display: inline;
+    width: 10px;
+    height: 10px;
 }
