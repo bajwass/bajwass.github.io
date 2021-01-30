@@ -6,6 +6,8 @@ header, footer{
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    background-color: #98dafc;
 }
 
 h1, h2, h3, nav, footer{
