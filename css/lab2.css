@@ -42,7 +42,7 @@ a:visited{
 a:hover{
     color: #ffffcc;
 }
-#description img.crystals{
+#crystals{
     border: solid black;
     padding: 0.25em 0.25em 0.25em 0.25em;
     width: 98%;
