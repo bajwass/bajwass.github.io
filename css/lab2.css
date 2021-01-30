@@ -44,6 +44,6 @@ a:hover{
 }
 #description img.crystals{
     border: solid black;
-    padding: 0.25em;
+    padding: 0.25em 0.25em 0.25em 0.25em;
     width: 98%;
 }
