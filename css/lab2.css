@@ -49,7 +49,7 @@ img.crystals{
     width: 98%;
 }
 
-#socials{
+div.socials{
     background-image: url(images/gray-gradient.png);
     height: 50px;
     border-radius: 25px;
