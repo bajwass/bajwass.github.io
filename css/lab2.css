@@ -99,6 +99,9 @@ div.bob{
 div.alice{
     margin-bottom: 12px;
 }
+p.artist{
+    margin-top: 8px;
+}
 
 p.photo{
     margin-top: 8px;
