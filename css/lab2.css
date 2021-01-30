@@ -53,10 +53,9 @@ div.socials{
     background-image: linear-gradient(to top left, white, grey), url(/images/gray-gradient.png);
     background-repeat: repeat;
     background-position: left top;
-    height: 50px;
     border-radius: 25px;
     padding: 10px;
-    margin: 1px;
+    margin-bottom: 10px;
 }
 
 div.wcolor{
