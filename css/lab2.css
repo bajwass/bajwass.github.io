@@ -42,8 +42,17 @@ a:visited{
 a:hover{
     color: #ffffcc;
 }
+
 img.crystals{
     border: solid black;
     padding: 0.25em 0.25em 0.25em 0.25em;
     width: 98%;
+}
+
+#socials{
+    background-image: url(images/gray-gradient.png);
+    height: 50px;
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
 }
