@@ -64,7 +64,7 @@ div.wcolor{
     
 }
 
-p.artist, figcaption.fig, div.bob, div.alice{
+p.artist, figcaption.fig, p.bob, p.alice{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: xx-small;
 }
