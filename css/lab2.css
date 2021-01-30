@@ -79,9 +79,9 @@ p.photo, p.review{
 }
 
 p.review{
-    border-bottom: 5px dotted black;
+    border-bottom: 2px dotted black;
 }
 
 h3{
-    border-bottom: 5px solid black;
+    border-bottom: 2px solid black;
 }
