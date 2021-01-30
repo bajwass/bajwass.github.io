@@ -67,12 +67,12 @@ div.wcolor{
 p.artist, figcaption.fig, p.name{
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-size: x-small;
+    font-size: small;
 }
 
 p.photo, p.review{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: medium;
 }
 
 
