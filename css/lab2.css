@@ -43,7 +43,6 @@ a:hover{
     color: #ffffcc;
 }
 #crystals{
-    border: solid black;
-    padding: 0.25em 0.25em 0.25em 0.25em;
+    border: 0.25em solid black;
     width: 98%;
 }
