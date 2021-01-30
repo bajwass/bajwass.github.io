@@ -50,7 +50,7 @@ img.crystals{
 }
 
 div.socials{
-    background-image: url(/images/gray-gradient.png);
+    background-image: linear-gradient(to top left, white, grey), url(/images/gray-gradient.png);
     background-repeat: repeat;
     background-position: left top;
     height: 50px;
