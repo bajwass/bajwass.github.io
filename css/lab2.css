@@ -64,8 +64,9 @@ div.wcolor{
     
 }
 
-p.artist, figcaption.fig, p.bob, p.alice{
+p.artist, figcaption.fig, p.name{
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     font-size: xx-small;
 }
+
