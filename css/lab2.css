@@ -42,3 +42,8 @@ a:visited{
 a:hover{
     color: #ffffcc;
 }
+figure{
+    border: solid black;
+    padding: 0.25em;
+    width: 98%;
+}
