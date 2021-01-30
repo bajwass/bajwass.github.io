@@ -63,3 +63,8 @@ div.wcolor{
     margin: 0em 4em 0.5em 4em;
     
 }
+
+p.artist, figcaption.fig, div.bob, div.alice{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
