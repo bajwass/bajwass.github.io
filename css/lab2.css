@@ -42,6 +42,9 @@ a:visited{
 a:hover{
     color: #ffffcc;
 }
+a:hover{
+    background-color: #ffffcc;
+}
 
 img.crystals{
     border: solid black;
