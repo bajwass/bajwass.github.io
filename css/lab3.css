@@ -16,22 +16,27 @@ table{
     
 }
 caption{
-    background-color: rgb(98, 235, 171);
+    background-color: steelblue;
     font-weight: bold;
 }
 thead{
     font-size: small;
     background-color: #cacaca;
     padding: 5px;
+    height: 20px;
   
 }
 tbody{
     font-size: small;
     background-color: #cacaca;
+    padding: 10px;
 }
 tfoot{
     background-color: #cacaca;
 }
-td.today{
+#today{
     background-color: aqua;
+}
+td:hover{
+    background-color: red;
 }
