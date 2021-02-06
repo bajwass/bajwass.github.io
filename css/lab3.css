@@ -32,3 +32,6 @@ tbody{
 tfoot{
     background-color: #cacaca;
 }
+td.today{
+    background-color: aqua;
+}
