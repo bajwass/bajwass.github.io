@@ -1,5 +1,34 @@
 fieldset{
     background-color: burlywood;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+    font-size: small;
+    margin: 10px;
 
+}
+
+table{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    width: 180px;
+    
+    
+}
+caption{
+    background-color: rgb(98, 235, 171);
+    font-weight: bold;
+}
+thead{
+    font-size: small;
+    background-color: #cacaca;
+    padding: 5px;
+  
+}
+tbody{
+    font-size: small;
+    background-color: #cacaca;
+}
+tfoot{
+    background-color: #cacaca;
 }
