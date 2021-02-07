@@ -20,7 +20,7 @@ caption{
     font-weight: bold;
 }
 thead{
-    font-size: small;
+    font-size: smaller;
     background-color: #cacaca;
     padding: 5px;
     height: 20px;
@@ -33,6 +33,7 @@ tbody{
 }
 tfoot{
     background-color: #cacaca;
+    font-size: smaller;
 }
 #today{
     background-color: aqua;
