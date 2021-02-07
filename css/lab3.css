@@ -10,12 +10,13 @@ fieldset{
 }
 
 table{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-right: auto;
     margin-left: auto;
     width: 180px;
     text-align: center;
     border-color: white;
+    
     
     
 }
@@ -27,28 +28,30 @@ caption{
 }
 thead{
     font-size: smaller;
-    background-color: #cacaca;
+    background-color: #e6e6e6;
     padding: 5px;
     height: 50px;
   
 }
 tbody{
     font-size: medium;
-    background-color: #cacaca;
+    background-color: #e6e6e6;
     padding: 10px;
 }
 tfoot{
-    background-color: #cacaca;
+    background-color: #e6e6e6;
     font-size: small;
 }
 #today{
     background-color: lightseagreen;
+    color: white;
 }
 td:hover{
     background-color: red;
 }
 td{
     padding: 5pt;
+    border-width: 1px;
 }
 th{
     padding: 5pt;
