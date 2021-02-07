@@ -3,8 +3,8 @@ fieldset{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 550;
     font-size: small;
-    margin-right: 40em;
-    margin-left: 40em;
+    margin-right: 50em;
+    margin-left: 50em;
 
 
 }
@@ -21,7 +21,7 @@ table{
     
 }
 caption{
-    background-color: wheat;
+    background-color: rgb(141, 211, 158);
     font-weight: bold;
     padding: 8px;
     font-size: small;
