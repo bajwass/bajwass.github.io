@@ -3,41 +3,60 @@ fieldset{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 550;
     font-size: small;
-    margin: 10px;
+    margin-right: 40em;
+    margin-left: 40em;
+
 
 }
 
 table{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-right: auto;
     margin-left: auto;
     width: 180px;
+    text-align: center;
+    border-color: white;
     
     
 }
 caption{
-    background-color: steelblue;
+    background-color: wheat;
     font-weight: bold;
+    padding: 8px;
+    font-size: small;
 }
 thead{
     font-size: smaller;
     background-color: #cacaca;
     padding: 5px;
-    height: 20px;
+    height: 50px;
   
 }
 tbody{
-    font-size: small;
+    font-size: medium;
     background-color: #cacaca;
     padding: 10px;
 }
 tfoot{
     background-color: #cacaca;
-    font-size: smaller;
+    font-size: small;
 }
 #today{
-    background-color: aqua;
+    background-color: lightseagreen;
 }
 td:hover{
     background-color: red;
+}
+td{
+    padding: 5pt;
+}
+th{
+    padding: 5pt;
+    font-size: xx-small;
+}
+#previous{
+    text-align: left;
+}
+#next{
+    text-align: right;
 }
