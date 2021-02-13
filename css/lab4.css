@@ -63,4 +63,10 @@ figcaption{
     background-color: #474747;
     color: white;
 }
+div.footer-related{
+    border-top: 2px solid #ff8800;
+}
+div.footer-section{
+    border-top: 2px solid #ff8800;
+}
 
