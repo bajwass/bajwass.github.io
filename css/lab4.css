@@ -15,6 +15,6 @@ p{
 header#masthead{
     margin: 2em 5em 2em 5em;
 }
-article#right-sidebar{
+article.right-sidebar{
     float: left;
 }
