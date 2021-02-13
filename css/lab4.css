@@ -24,6 +24,7 @@ header#masthead{
 footer{
     background-color:#474747  ;
     color:  #F5F5F5;
+    clear: left;
 }
 article#right-sidebar{
     height: 600px;
@@ -72,8 +73,12 @@ figcaption{
 }
 div.footer-related{
     border-top: 2px solid #ff8800;
+    width: 500px;
 }
 div.footer-section{
     border-top: 2px solid #ff8800;
+    clear: right;
+    width: 500px;
+    float: right;
 }
 
