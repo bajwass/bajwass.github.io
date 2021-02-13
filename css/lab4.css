@@ -41,6 +41,7 @@ article#center{
     height: 600px;
     clear: none;
     background-color:  #F5F5F5,;
+    overflow: hidden;
 }
 
 div.right{
@@ -52,6 +53,8 @@ div.right{
 img.overlayed{
     position: absolute;
     float: left;
+    top: 0px;
+    right: 0px;
 }
 
 figure{
@@ -60,8 +63,12 @@ figure{
 }
 figcaption{
     position: absolute;
-    background-color: #474747;
+    background-color: black;
     color: white;
+    top: 133px;
+    left: 0px;
+    width: 150px;
+    opacity: 0.8;
 }
 div.footer-related{
     border-top: 2px solid #ff8800;
