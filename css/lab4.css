@@ -7,6 +7,9 @@ body{
 h1{
     font-size: 1.8em;
 }
+#center h1{
+    border-bottom: 2px solid #ff8800;
+}
 h2{
     font-size: 1.2em;
 }
@@ -16,9 +19,7 @@ p{
 header#masthead{
     margin: 2em 5em 2em 5em;
     height: 45px;
-}
-div.footer-related{
-    float: left;
+    background-color: #F5F5F5,;
 }
 footer{
     background-color:#474747  ;
@@ -27,6 +28,9 @@ footer{
 article#right-sidebar{
     height: 600px;
     float: left;
+    width: 150px;
+    margin-left: 5em;
+    background-color:#F5F5F5, ;
     
 }
 
@@ -36,9 +40,9 @@ article#center{
     margin-bottom: 2em;
     height: 600px;
     clear: none;
+    background-color:  #F5F5F5,;
 }
-}
-.linkbutton{
+div.right{
     float: right;
     background-color: #ff8800 ;
     color: white;
@@ -46,6 +50,7 @@ article#center{
 }
 img.overlayed{
     position: absolute;
+    float: left;
 }
 
 figure{
