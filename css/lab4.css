@@ -42,6 +42,7 @@ article#center{
     clear: none;
     background-color:  #F5F5F5,;
 }
+
 div.right{
     float: right;
     background-color: #ff8800 ;
@@ -62,3 +63,4 @@ figcaption{
     background-color: #474747;
     color: white;
 }
+
