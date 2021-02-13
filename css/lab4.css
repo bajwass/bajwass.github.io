@@ -26,6 +26,7 @@ footer{
 }
 article#right-sidebar{
     height: 600px;
+    float: left;
     
 }
 
