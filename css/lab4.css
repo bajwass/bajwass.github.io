@@ -7,11 +7,10 @@ body{
 h1{
     font-size: 1.8em;
 }
-#center h1{
-    border-bottom: 1px solid #ff8800;
-}
+
 h2{
     font-size: 1.2em;
+    border-top: 1px solid #ff8800;
 }
 p{
     font-size: 0.9em;
@@ -98,7 +97,5 @@ footer{
     align-items: flex-start;
     padding-bottom: 55px;
 }
-footer h2{
-    border-top: 1px solid #ff8800;
-}
+
 
