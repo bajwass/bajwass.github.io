@@ -85,6 +85,8 @@ figcaption{
 div.footer-related{
     border-top: 2px solid #ff8800;
     width: 50%;
+    padding: 10px;
+    margin-left: 2em;
 }
 div.footer-section{
     border-top: 2px solid #ff8800;
