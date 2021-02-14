@@ -8,7 +8,7 @@ h1{
     font-size: 1.8em;
 }
 #center h1{
-    border-bottom: 2px solid #ff8800;
+    border-bottom: 1px solid #ff8800;
 }
 h2{
     font-size: 1.2em;
@@ -83,13 +83,11 @@ figcaption{
     height: 25px;
 }
 div.footer-related{
-    border-top: 2px solid #ff8800;
-    bord
-    padding: 10px;
+
     margin-left: 2em;
 }
 div.footer-section{
-    border-top: 2px solid #ff8800;
+    
     float: right;
     padding-left: 100px;
 
@@ -98,5 +96,9 @@ footer{
     clear: both;
     display: flex;
     align-items: flex-start;
+    padding-bottom: 55px;
+}
+footer h2{
+    border-top: 1px solid #ff8800;
 }
 
