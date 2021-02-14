@@ -45,7 +45,11 @@ article#center{
 }
 div.entry{
     clear: both;
+    margin-bottom: 2em;
 
+}
+a:link{
+    color: white;
 }
 
 div.right{
@@ -53,6 +57,9 @@ div.right{
     background-color: #ff8800 ;
     color: white;
     display: block;
+    padding: 10px;
+    font-size: smaller;
+
 }
 img.overlayed{
     position: absolute;
@@ -69,11 +76,11 @@ figcaption{
     position: absolute;
     background-color: black;
     color: white;
-    top: 130px;
+    top: 125px;
     left: 0px;
     width: 150px;
     opacity: 0.8;
-    height: 20px;
+    height: 25px;
 }
 div.footer-related{
     border-top: 2px solid #ff8800;
