@@ -84,18 +84,19 @@ figcaption{
 }
 div.footer-related{
     border-top: 2px solid #ff8800;
-    width: 50%;
+    bord
     padding: 10px;
     margin-left: 2em;
 }
 div.footer-section{
     border-top: 2px solid #ff8800;
     float: right;
-    width: 50%;
-
+    padding-left: 100px;
 
 }
 footer{
     clear: both;
+    display: flex;
+    align-items: flex-start;
 }
 
