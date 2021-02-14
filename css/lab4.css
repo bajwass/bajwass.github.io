@@ -69,10 +69,11 @@ figcaption{
     position: absolute;
     background-color: black;
     color: white;
-    top: 133px;
+    top: 130px;
     left: 0px;
     width: 150px;
     opacity: 0.8;
+    height: 20px;
 }
 div.footer-related{
     border-top: 2px solid #ff8800;
