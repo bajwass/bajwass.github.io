@@ -40,9 +40,12 @@ article#center{
     margin-right: 5em;
     margin-bottom: 2em;
     height: 600px;
-    clear: none;
     background-color:  #F5F5F5,;
     overflow: hidden;
+}
+div.entry{
+    clear: both;
+
 }
 
 div.right{
@@ -73,12 +76,13 @@ figcaption{
 }
 div.footer-related{
     border-top: 2px solid #ff8800;
-    width: 500px;
+    width: 50%;
 }
 div.footer-section{
     border-top: 2px solid #ff8800;
-    clear: right;
-    width: 500px;
     float: right;
+    width: 50%;
+
+
 }
 
