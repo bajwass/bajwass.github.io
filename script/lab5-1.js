@@ -1,0 +1,1 @@
+var blank =$("required").css("background-color","red");
