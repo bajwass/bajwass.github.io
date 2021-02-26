@@ -1,3 +1,1 @@
-Place all your css files in the folder.
-
-
+# Please your stylesheets in this folder.
