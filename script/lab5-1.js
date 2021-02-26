@@ -1,2 +1,2 @@
 var blank =$(".required").css("background-color");
-$(".required").css("background-color","red");
+$(".required").css("background-color", "red");
