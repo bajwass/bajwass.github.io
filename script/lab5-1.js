@@ -1,2 +1,4 @@
-var blank =$(".required").css("background-color");
-$(".element").css("background-color", "red");
+var blank = document.getElementsByClassName("required").style.color = "red";
+
+
+var sevent = document.getElementsByClassName("rounded");
