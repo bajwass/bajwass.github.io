@@ -6,3 +6,6 @@ for(var i =0; nodes.length;i++){
         nodes[i].innerHTML = oldnodes
     }
 }
+function clickCheck(){
+    
+}
