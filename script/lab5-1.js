@@ -1,4 +1,4 @@
-var blank = document.getElementsByClassName("required").style.color = "red";
+var color = $("required").css("background-color");
+$("required").css("background-color","red");
 
 
-var sevent = document.getElementsByClassName("rounded");
