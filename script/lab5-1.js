@@ -18,6 +18,10 @@ window.addEventListener("load", function(){
 
 
 });
-function prevent (p){
+        document.querySelector("mainForm").addEventListener("submit", function(f){
+            if(){
+                f.preventDefault();
+            }
 
-}
+        });
+
