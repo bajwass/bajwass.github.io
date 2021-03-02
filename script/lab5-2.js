@@ -1,5 +1,7 @@
-function myFunction(){
-   hello;
- }
+window.addEventListener("load", function(){
+
+
+
+});
  
  

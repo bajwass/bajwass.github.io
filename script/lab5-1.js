@@ -19,9 +19,6 @@ window.addEventListener("load", function(){
 
 });
         document.querySelector("mainForm").addEventListener("submit", function(f){
-            if(){
                 f.preventDefault();
-            }
-
-        });
+            });
 
