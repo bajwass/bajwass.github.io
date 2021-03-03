@@ -20,9 +20,20 @@ window.addEventListener("load", function(){
 
 });
 function check(ch){
-    
+    if(ch.type === "checkbox"){
+        if(ch.checked){
+            return false;
+        }else{
+            return true;
+        }
+        if(ch.type === ""){
+            return true;
+        }
+        return false;
+
+    }
 }
-document.querySelector("mainForm").addEventListener("submit", function(e){
+window.addEventListener("submit", function(e){
     var blanks = document.querySelectorAll(".required");
     
     for(var i=0; i<blanks.length;i++){
