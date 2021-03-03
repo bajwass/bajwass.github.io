@@ -19,13 +19,8 @@ window.addEventListener("load", function(){
 
 
 });
-function check(c){
-    var select = "input[type=text], textarea[name=description]";
-    var cbox = "input[type=checkbox]";
-    var s = document.querySelectorAll(select);
-    var c = document.querySelectorAll(cbox);
+function check(ch){
     
-    if(cbox.ch)
 }
 document.querySelector("mainForm").addEventListener("submit", function(e){
     var blanks = document.querySelectorAll(".required");
