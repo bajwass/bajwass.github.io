@@ -18,12 +18,10 @@ $(".panel")
     .on("click",function(){
         $("#message").html("You clicked in panel");
         $(".panel").off("mousemove");
-
     })
     .on("mousemove", function(e){
      $("#message").html("x=" + e.pageX + " y=" + e.pageY);   
     })
     .on("#mouseleave", function(e){
         $("message").html("The mouse has left.")
-
     });
