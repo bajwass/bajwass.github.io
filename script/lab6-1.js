@@ -5,14 +5,13 @@ $("#pageTitle").html("Lab6 - DOM Manipulation with jQuery.");
 var ta = $("").attr("");
 $("").attr("","");
 
-
-
-
-
-
+var vd = $("div.btn btn-primary").css("background-color"); 
+$("div.btn btn-primary").css("background-color", "red");
 
 var bg = $("body").css("background-color"); 
 $("body").css("background-color", "ivory");
+
+
 
 $(".panel")
     .on("click",function(){
