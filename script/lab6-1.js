@@ -23,7 +23,7 @@ $(".panel")
     .on("mousemove", function(e){
      $("#message").html("x=" + e.pageX + " y=" + e.pageY);   
     })
-    on("#mouseleave", function(e){
+    .on("#mouseleave", function(e){
         $("message").html("The mouse has left.")
 
     });
