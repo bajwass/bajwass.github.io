@@ -33,21 +33,20 @@ $("<img>",{
 $(".img-responsive").on("mouseover", function(e){
     var alt = $(this).attr('alt');
     var src = $(this).attr('src');
-    var newsrc = src.replace("small","small");
+    var newsrc = src.replace("medium","small");
 
     var preview = $('<div id="preview"></div>');
     var image = $('<img src="' + newsrc + '">');
     var caption = $('<p>' + alt + '</p>');
 
-    $("body").append(preview + image + caption);
-    $("preview-image")
-        .fadeIn("1000");
+    
+    $(".preview-image").html(preview + image + caption);
     
 
 
 });
 $(".img-responsive").on("mouseleave", function(e){
-    $("preview-image").remove();
+    $(".preview-image").remove();
 });
 
 
