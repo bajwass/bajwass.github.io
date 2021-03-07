@@ -20,10 +20,13 @@
     .click(function(e){
       $.ajax({
         url: "http://www.randyconnolly.com/funwebdev/services/travel/cities.php",
-        data: $("voteForm").serialize(),
         async: true,
-        type: post,
-        headers: {"id":""}
+        type: get,
+        dataType: "json",
+        success : function(data){
+          
+
+        }
       })
 
     });
