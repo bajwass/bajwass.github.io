@@ -24,4 +24,11 @@ $(".panel")
         $("#message").html("The mouse has left.")
     });
 
+$("<img>",{
+    src: "images/art/thumbs/13030.jpg"
+
+})
+.appendTo("#panel-2");
+
+
 
