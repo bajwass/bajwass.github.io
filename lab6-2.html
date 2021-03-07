@@ -11,8 +11,23 @@
   <p id="time_two"></p>
 
   <!-- Add button and table here -->
-
   <script>
+
+  $("<button/>")
+
+    .text("Get City Info")
+    .appendTo("Body")
+    .click(function(e){
+      $.ajax({
+        url: "http://www.randyconnolly.com/funwebdev/services/travel/cities.php",
+        data: $("voteForm").serialize(),
+        async: true,
+        type: post,
+        headers: {"id":""}
+      })
+
+    });
+
   //set interval timers to trigger the refresh.  Here the callback function will
   //be called when the timer fires
   var var1 = setInterval(timer1, 1000);

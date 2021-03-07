@@ -14,14 +14,14 @@ $(".center-icons").addClass("selected");
 
 $(".panel")
     .on("click",function(){
-        $("#message").html("You clicked in panel");
+        $("span#message").html("You clicked in panel");
         $(".panel").off("mousemove");
     })
     .on("mousemove", function(e){
-     $("#message").html("x=" + e.pageX + " y=" + e.pageY);   
+     $("span#message").html("x=" + e.pageX + " y=" + e.pageY);   
     })
     .on("mouseleave", function(e){
-        $("#message").html("The mouse has left.")
+        $("span#message").html("The mouse has left.")
     });
 
 $("<img>",{
@@ -30,5 +30,24 @@ $("<img>",{
 })
 .appendTo("#panel-2");
 
+$(".img-responsive").on("mouseover", function(e){
+    var alt = $(this).attr('alt');
+    var src = $(this).attr('src');
+    var newsrc = src.replace("small","small");
+
+    var preview = $('<div id="preview"></div>');
+    var image = $('<img src="' + newsrc + '">');
+    var caption = $('<p>' + alt + '</p>');
+
+    $("body").append(preview + image + caption);
+    $("preview-image")
+        .fadeIn("1000");
+    
+
+
+});
+$(".img-responsive").on("mouseleave", function(e){
+    $("preview-image").remove();
+});
 
 
