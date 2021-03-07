@@ -40,7 +40,7 @@ $(".img-responsive").on("mouseover", function(e){
     var caption = $('<p>' + alt + '</p>');
 
     
-    $(".preview-image").html(preview + image + caption);
+    $(".preview-image").appendTo(preview + image + caption);
     
 
 
