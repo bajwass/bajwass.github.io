@@ -2,13 +2,9 @@ window.onload = function(){
     var nodes = document.getElementsByTagName("*");
 
     for(var i=1;i<nodes.length;i++){
-        var nodenum = nodes[i].nodeType;
-        var cnode = nodes[i];
-
-        if(nodenum !=3 && cnode.nodeName !="DIV"){
-            var o = cnode.innerHTML;
-            cnode.innerHTML = o + "<div class = 'hoveNode'>"+ cnode.nodeName + "</div>"
-            cnode.addEventListener("click",NodeF);
+        if(nodes[i].nodeType !=3 && nodes[i].nodeName !="DIV"){
+            nodes[i].innerHTML = nodes[i].innerHTML + "<div class = 'hoveNode'>"+ nodes[i].nodeName + "</div>"
+            nodes[i].addEventListener("click",NodeF);
         }
     }
     function NodeF(){
