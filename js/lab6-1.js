@@ -35,18 +35,18 @@ $(".img-responsive").on("mouseover", function(e){
     var src = $(this).attr('src');
     var newsrc = src.replace("medium","small");
 
-    var preview = $('<div id="preview"></div>');
+    var preview = $('<div class="preview"></div>');
     var image = $('<img src="' + newsrc + '">');
     var caption = $('<p>' + alt + '</p>');
 
+    preview.append(image);
+    preview.append(caption);
+    $('#stories').after(preview);
     
-    $(".preview-image").appendTo(preview + image + caption);
-    
-
 
 });
 $(".img-responsive").on("mouseleave", function(e){
-    $(".preview-image").remove();
+    $(preview).remove();
 });
 
 
