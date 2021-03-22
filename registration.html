@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <head>
     <link href="css/registration.css" rel="stylesheet">
+    <script type="text/javascript" src="script/register.js"></script>
+    <a href="#">Return to Home page</a>
 
+   
+     <p class="sign">Have an account already? Sign in <a href="#">here</a> </p>
+    
 </head>
 <body>
-<form action="">
+<form action="" name="regform" onsubmit="return validateForm()">
     <div class="register">
-        <h1>Account Registration Form</h1>
-        <p>Fill in form below to create an account</p>
-            
+        <h1>Account Registration Form</h1><hr>
+        <p>Fill in form below to create an account.</p>
+        <hr>
+                
                 <label>First Name: </label>
-                <input type="text" name="fname" id="fname" placeholder="Enter First Name" required>
-            
-           
+                <input type="text" name="fname" id="fname"  placeholder="Enter First Name">
+
+
                 <label>Last Name: </label>
-                <input type="text" name="lname" id="lname" placeholder="Enter Last Name" required>
+                <input type="text" name="lname" id="lname" placeholder="Enter Last Name">
            
             
                 <label>Email: </label>
-                <input type="email" name="email" id="email" placeholder="Enter Email Address" required>
+                <input type="email" name="email" id="email" placeholder="Enter Email Address">
             
            
                 <label>Password: </label>
-                <input type="password" name="password" id="password" placeholder="Choose Password" required>
+                <input type="password" name="password" id="password" placeholder="Choose Password">
+
+                <div class="checkrules">
+                    <input type="checkbox" name="rules" id="rules" class="required">
+                    <label>I agree to follow the websites rules</label>
+                    <p id="checkerror"></p> 
+                </div>
             
             
-                <p>By clicking register, you agree to follow the websites rules.</p>
-                <input type="button" class="regbutton" value="Register" />
+                <input type="submit" class="submit" value="Register" />
                 <input type="reset" class="clear" value="Clear Form" />
+
+                
             
-    </div>
-    <div class="logo">
-        
     </div>
     
 
