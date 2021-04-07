@@ -1,19 +1,28 @@
+
 <!DOCTYPE html>
 <head>
     <link href="css/registration.css" rel="stylesheet">
     <script type="text/javascript" src="script/register.js"></script>
-    <a href="#">Return to Home page</a>
 
-   
-     <p class="sign">Have an account already? Sign in <a href="#">here</a> </p>
-    
+    <div id="top">
+        <a id="main" href="#MainPage.html">Return to Home page</a>
+        <a id="sign" href="#MainPage.html">Sign in here</a>
+    </div>
+
+
 </head>
 <body>
-<form action="" name="regform" onsubmit="return validateForm()">
+<form  method="POST" action="registration.html" name="regform" onsubmit="return validateForm()">
     <div class="register">
-        <h1>Account Registration Form</h1><hr>
-        <p>Fill in form below to create an account.</p>
-        <hr>
+            <h1>Account Registration Form</h1>
+            <div id="image">
+                <img src = "images/logo.PNG" alt = "logo" height="100px" width="100px">
+            </div>
+            <p id="back">Fill in form below to create an account.</p>
+        
+        
+
+        
                 
                 <label>First Name: </label>
                 <input type="text" name="fname" id="fname"  placeholder="Enter First Name">
@@ -30,21 +39,28 @@
                 <label>Password: </label>
                 <input type="password" name="password" id="password" placeholder="Choose Password">
 
+
                 <div class="checkrules">
                     <input type="checkbox" name="rules" id="rules" class="required">
                     <label>I agree to follow the websites rules</label>
                     <p id="checkerror"></p> 
                 </div>
-            
-            
-                <input type="submit" class="submit" value="Register" />
+
+                <input type="submit" class="submit" name="submitreg" value="Register" />
                 <input type="reset" class="clear" value="Clear Form" />
 
                 
             
     </div>
     
+   
+
+    
 
 </form>
+
 </body>
+<div id="footer">
+    <p>footer</p>
+</div>
 </html>

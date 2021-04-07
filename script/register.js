@@ -5,11 +5,13 @@ function validateForm(){
      var pass = document.getElementById("password");
      var check = document.getElementById("rules");
      var input = document.getElementsByTagName("input");
+     var cpass = document.getElementById("confirmpassword");
      var message ="";
 
      for(var i=0; i<input.length;i++){
          if(input[i].value == ""){
              input[i].style.backgroundColor ="yellow";
+             
          }else{
             input[i].style.backgroundColor ="";
          }
@@ -20,5 +22,7 @@ function validateForm(){
         document.getElementById("checkerror").innerHTML ="*Please Checkbox before continuing";
         return false;
 
+
     }
+    
 }
